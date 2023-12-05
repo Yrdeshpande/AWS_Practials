@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreatePolicy",
+                "iam:CreateGroup",
+                "iam:GetPolicy",
+                "iam:GetUserPolicy",
+                "iam:ListGroupPolicies",
+                "iam:ListUsers",
+                "iam:ListGroups",
+                "iam:GetGroupPolicy",
+                "iam:GetUser",
+                "iam:CreateUser",
+                "iam:GetGroup"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
