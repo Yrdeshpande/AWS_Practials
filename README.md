@@ -1,2 +1,2 @@
-# IAM_Practial
-AWS_Practials
+# AWS_Practial
+IAM_Practials
