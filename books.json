@@ -1,0 +1,34 @@
+{
+    "books": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "author": {
+                        "S": "vikas"
+                    },
+                    "title": {
+                        "S": "my first book"
+                    },
+                    "yearPublished": {
+                        "N": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "author": {
+                        "S": "suyash"
+                    },
+                    "title": {
+                        "S": "my second book"
+                    },
+                    "yearPublished": {
+                        "N": "2001"
+                    }
+                }
+            }
+        }
+    ]
+}
